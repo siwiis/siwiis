@@ -1,0 +1,6 @@
+opencv-python-headless
+numpy
+trimesh
+shapely
+aspose-3d
+mapbox-earcut
