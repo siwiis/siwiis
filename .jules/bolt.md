@@ -1,0 +1,3 @@
+## 2026-07-14 - Optimized profile README payload size
+**Learning:** In documentation-only profile repositories, payload reduction via stripping redundant HTML comments and multi-byte characters is the primary performance win, achieving ~50% size reduction.
+**Action:** Quantify byte savings in the PR description but avoid adding meta-comments inside the Markdown file itself, as they are rejected as noise and partially negate the savings.
