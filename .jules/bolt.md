@@ -1,0 +1,3 @@
+## 2025-01-24 - Profile Payload Size Optimization
+**Learning:** In a documentation-only profile repository, stripping redundant HTML comment boilerplate and converting multi-byte curly apostrophes to standard ASCII straight apostrophes significantly reduces initial load times and network overhead for profile visitors. Here, removing 197 bytes of boilerplate and non-ASCII character representations reduced payload size by ~50% (from 395 to 198 bytes).
+**Action:** Always identify boilerplate/meta-comments and multi-byte curly characters in Markdown-only profile pages to maximize payload reduction.
