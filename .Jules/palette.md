@@ -1,0 +1,3 @@
+## 2024-07-19 - Profile Visibility and Emoji Accessibility
+**Learning:** Renaming the entry-point file from 'wiis.md' to 'README.md' is a critical UX fix for profile visibility, ensuring it renders properly on GitHub. Standard emojis within the Markdown should be wrapped with HTML spans specifying 'role="img"' and appropriate 'aria-label' attributes to ensure screen-reader accessibility without disturbing the standard content or comment blocks.
+**Action:** Always rename profile entry point files to 'README.md' and wrap active emojis in '<span role="img" aria-label="...">...</span>' for accessibility.
