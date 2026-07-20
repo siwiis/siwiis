@@ -1,0 +1,3 @@
+## 2025-01-24 - GitHub Profile Visibility and Emoji Accessibility
+**Learning:** GitHub profile content must be located in a file named `README.md` at the repository root to be rendered publicly. Furthermore, wrapping emojis in Markdown using `<span role="img" aria-label="...">...</span>` makes them accessible to screen-reader users, while avoiding wrapping inside comment blocks avoids repository noise.
+**Action:** Rename `wiis.md` to `README.md` for profile visibility, and wrap all emojis in the visible content of the profile using the standard `<span role="img" aria-label="...">...</span>` pattern.
