@@ -1,0 +1,3 @@
+## 2024-11-20 - GitHub Profile Visibility Fix & Raw Emojis
+**Learning:** GitHub profile README files must be named `README.md` to be visible and render correctly on a user's GitHub profile. While inline HTML wrapping elements like `<span role="img" aria-label="...">` are great for web apps, applying them within standard Markdown documents degrades source readability and is rejected as clutter because modern screen readers natively support reading standard emojis perfectly.
+**Action:** Prioritize proper entrypoint file naming (e.g., `README.md` over `wiis.md`) for profile rendering as a fundamental UX visibility improvement, and keep Markdown files clean, raw, and editable by letting standard screen readers natively handle emoji characters.
