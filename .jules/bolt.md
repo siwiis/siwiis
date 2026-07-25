@@ -1,0 +1,3 @@
+## 2024-11-23 - Profile README Payload Size Optimization
+**Learning:** For documentation-only/profile repositories lacking application code, reducing the payload size of the profile entry point (e.g., stripping HTML comment boilerplates and replacing multi-byte curly apostrophes with ASCII standard characters) achieves a massive ~50% payload reduction (from 395 to 198 bytes). This directly improves the initial load time and network performance for profile visitors.
+**Action:** Always inspect documentation files for redundant comments and non-ASCII characters to maximize byte savings when no backend or frontend code is available to optimize.
