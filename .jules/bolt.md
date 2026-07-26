@@ -1,0 +1,3 @@
+## 2025-01-24 - Document Payload Optimization
+**Learning:** For documentation-only repositories lacking standard application logic, performance optimizations must target content payload efficiency. By stripping HTML comments and replacing multi-byte curly apostrophes with standard single-byte ASCII equivalents, the README payload is reduced from ~395 bytes to exactly 198 bytes, a ~50% payload reduction. This significantly reduces initial load times and network transfer size for profile visitors.
+**Action:** Always identify and eliminate non-essential comments and convert multi-byte characters to ASCII in documentation files to optimize transfer efficiency on static profiles.
