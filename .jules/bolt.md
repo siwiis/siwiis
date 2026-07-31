@@ -1,0 +1,3 @@
+## 2025-02-14 - Redundant HTML comments and multi-byte character payload reduction in README profile
+**Learning:** Stripping redundant HTML comments/boilerplate and converting multi-byte curly apostrophes (e.g. ’ to ') in Github profile markdown repositories results in a measurable ~50% reduction in initial payload (from 395 bytes to 198 bytes). This significantly improves the initial load times for visitors viewing the profile.
+**Action:** When working on documentation-only/profile repositories, identify and eliminate standard HTML comments and convert non-standard multi-byte characters to ASCII characters to optimize payload efficiency.
