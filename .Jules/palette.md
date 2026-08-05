@@ -1,0 +1,3 @@
+## 2024-08-05 - GitHub Profile Document-Only Semantic Structure
+**Learning:** For documentation-only profile repositories, the README.md itself is the user interface. Converting unstructured list items to semantically structured sections (such as # and ## headings) significantly improves screen-reader landmark navigation and overall visual/cognitive accessibility.
+**Action:** When working on profile-only repositories, ensure the entry point is named README.md and restructure unstructured lists into proper semantic headings while keeping raw, unwrapped emojis for screen reader compatibility and clean diffs.
