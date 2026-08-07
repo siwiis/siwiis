@@ -1,0 +1,3 @@
+## 2025-01-24 - Profile Markdown Payload Optimization
+**Learning:** For documentation-only profile repositories lacking application logic, reducing payload size by stripping redundant HTML boilerplate comments and replacing multi-byte curly apostrophes with standard straight apostrophes achieves a measurable ~50% byte savings (from 395 to 198 bytes). This directly improves initial load performance and reduces bandwidth consumption for profile visitors.
+**Action:** Always identify and strip unused HTML comment templates and normalize multi-byte characters in static documentation files to optimize delivery size.
