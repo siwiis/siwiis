@@ -1,0 +1,3 @@
+## 2023-11-20 - Restructuring Profile README for Accessibility and Usability
+**Learning:** For documentation-only profile repositories, the README.md file serves as the main user interface. A single, unstructured flat list lacks visual/cognitive hierarchy, and screen readers cannot leverage landmark navigation (headings) to jump between sections. Using semantic Markdown elements ('#', '##') greatly improves accessibility.
+**Action:** Structured unstructured lists in profile readmes into headings and clean sections. Also, rename profile entry point from 'wiis.md' to 'README.md' so GitHub actually renders the profile.
