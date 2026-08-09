@@ -1,0 +1,3 @@
+## 2025-01-24 - Profile Payload Optimization
+**Learning:** For documentation-only profile repositories where standard application logic is absent, optimization can still be achieved on existing assets. Stripping boilerplate HTML comments and multi-byte curly apostrophes achieves a ~50% payload reduction (from 395 to 198 bytes), directly improving the initial page-load performance for profile visitors.
+**Action:** Always identify opportunities to optimize content payload sizes in text/markdown assets, such as stripping boilerplate comment blocks and standardizing character encoding to plain ASCII where possible.
