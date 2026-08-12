@@ -1,0 +1,3 @@
+## 2023-11-20 - Profile Repository Accessibility and Renaming
+**Learning:** For documentation-only profile repositories lacking an active frontend code stack, renaming the file from 'wiis.md' to 'README.md' is a critical UX and visibility enhancement. Furthermore, converting an unstructured list of introductory bullet points into semantically structured Markdown sections improves cognitive readability and screen-reader landmark navigation, while preserving raw emojis keeps the document highly maintainable and readable.
+**Action:** Always structure markdown-based profile repositories with clear headings and bold keys, and avoid wrap-tagging raw emojis to satisfy both accessibility and developer-readability requirements.
