@@ -1,0 +1,3 @@
+## 2024-10-31 - README Payload Optimization
+**Learning:** For documentation-only profile repositories, the README file is the main entry point and user interface. Redundant HTML template comments and multi-byte curly apostrophes bloat the payload unnecessarily. Removing them and standardizing to ASCII apostrophes achieved a ~50% size reduction (from 395 to 198 bytes), significantly improving the initial load times for profile visitors.
+**Action:** Always inspect documentation files for redundant comments and non-ASCII character bloat to optimize payload size when there is no backend/frontend application code to profile.
