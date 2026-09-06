@@ -1,0 +1,3 @@
+## 2026-03-30 - Profile README UX and Heading Semantics
+**Learning:** In GitHub profile repositories (`username/username`), GitHub expects a `README.md` file at the repository root to render profile cards. Using non-standard filenames (such as `wiis.md`) prevents profile cards from rendering. Additionally, converting flat markdown lists into semantic heading structures (`#`, `##`) enables screen-reader users to navigate profile content via section landmarks.
+**Action:** Always rename non-standard profile docs to `README.md` and organize plain bullet lists into semantic headings for accessibility.
