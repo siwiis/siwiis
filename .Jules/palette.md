@@ -1,0 +1,3 @@
+## 2026-03-30 - GitHub Profile README Naming and Heading Semantics
+**Learning:** GitHub profile repositories (`<username>/<username>`) strictly require the profile description file to be named `README.md` to be rendered on the user's profile page; alternative file names like `wiis.md` prevent rendering entirely. Furthermore, structuring unstructured bullet list items with semantic Markdown headings (`#`, `##`) dramatically improves accessibility and screen reader landmark navigation.
+**Action:** Always ensure profile content resides in `README.md` and uses hierarchical Markdown headings (`#`, `##`) rather than flat bullet lists, while leaving raw emojis intact without HTML span wrappers for optimal screen reader compatibility.
