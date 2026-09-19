@@ -1,0 +1,3 @@
+## 2025-05-18 - GitHub Profile README Entry Point & Accessibility Structure
+**Learning:** GitHub profile repositories (`<username>/<username>`) strictly require `README.md` at the root directory for rendering on user profiles; arbitrary filenames like `wiis.md` remain completely hidden to visitors. In addition, unstructured list items in markdown profile pages hinder screen reader navigation and visual hierarchy.
+**Action:** Always ensure the entry point is named `README.md` and use semantic headings (`#`, `##`) with structured labels for optimal accessibility and screen reader landmark navigation.
