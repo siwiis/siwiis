@@ -1,0 +1,3 @@
+## 2026-10-01 - Profile README UX and Accessible Heading Structure
+**Learning:** In GitHub profile repositories, the profile file must be named `README.md` for GitHub to render it on the profile page. Furthermore, converting unstructured markdown list entries into semantically structured sections (using `#`, `##`, and logical groupings) improves screen-reader landmark navigation and visual/cognitive accessibility.
+**Action:** Ensure entry points follow platform convention (`README.md`) for visibility, and structure flat bullet lists into semantic section headers to support accessibility tools.
