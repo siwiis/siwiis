@@ -1,0 +1,3 @@
+## 2026-10-08 - Profile README Entrypoint & Semantic Heading UX
+**Learning:** GitHub profile repositories (`<username>/<username>`) require `README.md` as the entrypoint file to render the profile overview card; naming it `wiis.md` breaks profile visibility completely. Additionally, converting unstructured bullet lists into semantic Markdown heading sections (`#`, `##`) provides essential accessibility landmarks for screen reader navigation without needing HTML tags around emojis.
+**Action:** Always ensure profile repos use `README.md` as the entrypoint and apply clean semantic heading structure while keeping raw emojis inline for optimal readability across devices and screen readers.
