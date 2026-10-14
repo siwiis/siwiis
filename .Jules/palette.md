@@ -1,0 +1,3 @@
+## 2025-05-18 - GitHub Profile Entrypoint and Semantic Landmark Hierarchy
+**Learning:** GitHub profile repositories (`<username>/<username>`) strictly require the profile content to be located in `README.md` at the root directory to render on the user's profile page. Non-standard filenames like `wiis.md` prevent profile rendering entirely. Furthermore, structuring raw profile lists into semantic Markdown sections (`#`, `##`) dramatically improves accessibility and landmark navigation for screen-reader users.
+**Action:** Always verify that profile entry points are named `README.md` and use proper semantic Markdown section headings instead of flat bulleted lists.
